@@ -17,8 +17,7 @@ Curated list for VisualStudio Code extensions
 [`code --install-extension msjsdiag.debugger-for-chrome`](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)  
 [`code --install-extension EditorConfig.EditorConfig`](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)  
 [`code --install-extension humao.rest-client`](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)  
-[`code --install-extension jpoissonnier.vscode-styled-components`](https://marketplace.visualstudio.com/  
-tems?itemName=jpoissonnier.vscode-styled-components)
+[`code --install-extension jpoissonnier.vscode-styled-components`](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)  
 [`code --install-extension mechatroner.rainbow-csv`](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)  
 [`code --install-extension mikestead.dotenv`](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)  
 [`code --install-extension mrmlnc.vscode-scss`](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)  
@@ -35,10 +34,8 @@ tems?itemName=jpoissonnier.vscode-styled-components)
 
 ## ##TypeScript
 
-[`code --install-extension ms-vscode.vscode-typescript-tslint-plugin`](https://marketplace.visualstudio.com/  
-tems?itemName=ms-vscode.vscode-typescript-tslint-plugin)
-[`code --install-extension dskwrk.vscode-generate-getter-setter`](https://marketplace.visualstudio.com/  
-tems?itemName=dskwrk.vscode-generate-getter-setter)
+[`code --install-extension ms-vscode.vscode-typescript-tslint-plugin`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+[`code --install-extension dskwrk.vscode-generate-getter-setter`](https://marketplace.visualstudio.com/items?itemName=dskwrk.vscode-generate-getter-setter)
 
 
 ## #NodeJS
@@ -55,8 +52,7 @@ tems?itemName=dskwrk.vscode-generate-getter-setter)
 
 ## #React
 
-[`code --install-extension jawandarajbir.react-vscode-extension-pack`](https://marketplace.visualstudio.com/  
-tems?itemName=jawandarajbir.react-vscode-extension-pack)
+[`code --install-extension jawandarajbir.react-vscode-extension-pack`](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
 [`code --install-extension msjsdiag.vscode-react-native`](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)  
 
 
@@ -69,15 +65,17 @@ tems?itemName=jawandarajbir.react-vscode-extension-pack)
 # How to get the extension list
 As I read in this [stackoverflow thread](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list):
 
+```
 # UNIX:
 code --list-extensions | xargs -L 1 echo code --install-extension
 
 
 # Windows (PowerShell, e. g. using VSCode's integrated Terminal):
 code --list-extensions | % { "code --install-extension $_" }
-
+```
 
 # How to import the extension list
-
+```
 # UNIX
 cat vscode-extension-list.txt | xargs -L 1 code --install-extension
+```

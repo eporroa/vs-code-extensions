@@ -2,7 +2,7 @@
 Curated list for VisualStudio Code extensions
 
 ## WebDev
-``` sh
+``` zsh
 code --install-extension 2gua.rainbow-brackets
 code --install-extension aaron-bond.better-comments
 code --install-extension anseki.vscode-color
@@ -28,26 +28,37 @@ code --install-extension shinnn.stylelint
 ```
 
 ## JS
+``` zsh
 code --install-extension cmstead.jsrefactor
 code --install-extension xabikos.JavaScriptSnippets
+```
 
 ## TS
+``` zsh
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension dskwrk.vscode-generate-getter-setter
+```
 
 ## Node
+``` zsh
 code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
+```
 
 ## Vue
+``` zsh
 code --install-extension hollowtree.vue-snippets
 code --install-extension octref.vetur
+```
 
 ## React
+``` zsh
 code --install-extension jawandarajbir.react-vscode-extension-pack
 code --install-extension msjsdiag.vscode-react-native
+```
 
 ## NG
+``` zsh
 code --install-extension Angular.ng-template
 code --install-extension Mikael.Angular-BeastCode
-
+```

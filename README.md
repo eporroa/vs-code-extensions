@@ -32,9 +32,9 @@ Curated list for VisualStudio Code extensions
 [`code --install-extension xabikos.JavaScriptSnippets`](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)  
 
 
-## ##TypeScript
+## #TypeScript
 
-[`code --install-extension ms-vscode.vscode-typescript-tslint-plugin`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
+[`code --install-extension ms-vscode.vscode-typescript-tslint-plugin`](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)  
 [`code --install-extension dskwrk.vscode-generate-getter-setter`](https://marketplace.visualstudio.com/items?itemName=dskwrk.vscode-generate-getter-setter)
 
 
@@ -52,7 +52,7 @@ Curated list for VisualStudio Code extensions
 
 ## #React
 
-[`code --install-extension jawandarajbir.react-vscode-extension-pack`](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)
+[`code --install-extension jawandarajbir.react-vscode-extension-pack`](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack)  
 [`code --install-extension msjsdiag.vscode-react-native`](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)  
 
 

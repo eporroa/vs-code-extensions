@@ -62,3 +62,20 @@ code --install-extension msjsdiag.vscode-react-native
 code --install-extension Angular.ng-template
 code --install-extension Mikael.Angular-BeastCode
 ```
+
+# How to get the extension list
+As I read in this [stackoverflow thread](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list):
+```
+# UNIX:
+code --list-extensions | xargs -L 1 echo code --install-extension
+
+
+# Windows (PowerShell, e. g. using VSCode's integrated Terminal):
+code --list-extensions | % { "code --install-extension $_" }
+```
+
+# How to import the extension list
+```
+# UNIX
+cat vscode-extension-list.txt | xargs -L 1 code --install-extension
+```

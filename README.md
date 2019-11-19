@@ -2,7 +2,7 @@
 Curated list for VisualStudio Code extensions
 
 ## #WebDev
-[`code --install-extension 2gua.rainbow-brackets`](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
+[`code --install-extension 2gua.rainbow-brackets`](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)  
 [`code --install-extension aaron-bond.better-comments`](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 [`code --install-extension anseki.vscode-color`](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color)
 [`code --install-extension dbaeumer.vscode-eslint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)

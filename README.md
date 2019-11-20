@@ -1,5 +1,5 @@
 # vs-code-extensions
-Curated list for VisualStudio Code extensions
+Curated list for VisualStudio Code extensions, includes the command to install the extension on the Mac & Unix Based
 
 ## #WebDev
 [`code --install-extension 2gua.rainbow-brackets`](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)  
@@ -24,6 +24,7 @@ Curated list for VisualStudio Code extensions
 [`code --install-extension oderwat.indent-rainbow`](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)  
 [`code --install-extension ryu1kn.partial-diff`](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)  
 [`code --install-extension shinnn.stylelint`](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint)  
+[`code --install-extension quicktype.quicktype`](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)  
 
 
 ## #JavaScript
